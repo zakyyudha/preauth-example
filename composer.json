@@ -1,0 +1,18 @@
+{
+    "require": {
+        "donixo/darto-helm": "dev-master",
+        "adldap2/adldap2": "^8.1",
+        "robmorgan/phinx": "^0.9.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Pdsi\\": "src"
+        }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "git@gitlab.dev.kominfo.go.id:donixo/darto-helm.git"
+        }
+    ]
+}

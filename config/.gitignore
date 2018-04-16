@@ -1,5 +1,5 @@
 *
 !.gitignore
-./example.database.php
-./example.ldap.php
-./example.preauth.php
+!./example.database.php
+!./example.ldap.php
+!./example.preauth.php

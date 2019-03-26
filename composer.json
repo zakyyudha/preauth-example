@@ -1,6 +1,6 @@
 {
     "require": {
-        "donixo/darto-helm": "dev-master",
+        "donixo/darto-helm": "1.1",
         "adldap2/adldap2": "^8.1",
         "robmorgan/phinx": "^0.9.2"
     },
@@ -15,4 +15,5 @@
             "url": "git@gitlab.dev.kominfo.go.id:donixo/darto-helm.git"
         }
     ]
+
 }

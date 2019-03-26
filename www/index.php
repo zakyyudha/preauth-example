@@ -1,7 +1,7 @@
 <?php
 \session_start();
 
-if (!$_SESSION['authenticated']){
+if (!@$_SESSION['authenticated']){
     echo "Failed to authenticate";
     return false;
 }
